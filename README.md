@@ -1,0 +1,2 @@
+# tab-operation
+WinActivate("[TITLE:Opening ; CLASS:MozillaDialogClass]")  // if that title is found it will activate and perform below actions Send("{DOWN}")  // perform down arrow operation Sleep(10)   // wait for 10 secs Send("{TAB}")  // perform tab operation Sleep(10) // wait for 10 secs Send("{TAB}") // perform tab operation Sleep(10)  // wait for 10 secs Send("{ENTER}")  // press enter button EndIf  // end of if condition
